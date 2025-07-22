@@ -1,0 +1,285 @@
+2025-07-21 14:46:21,580 - utils.gemini_analyzer - INFO - Gemini AI分析器初始化完成，使用模型: gemini-2.0-flash-exp
+2025-07-21 14:46:21,580 - utils.gemini_analyzer - INFO - Gemini分析器初始化成功
+2025-07-21 14:46:21,580 - root - INFO - BIRT AI生成器初始化完成
+2025-07-21 14:46:21,581 - root - INFO - 找到 1 个Excel文件，开始批量处理
+2025-07-21 14:46:21,581 - root - INFO - 开始处理文件: 20250527162636.xlsx
+2025-07-21 14:46:21,581 - root - INFO - 步骤1: 分析Excel文件结构
+2025-07-21 14:46:21,581 - analyzers.excel_analyzer - INFO - 开始分析Excel文件: input\20250527162636.xlsx
+2025-07-21 14:46:21,662 - analyzers.excel_analyzer - ERROR - 分析表格数据失败: 'DataFrame' object has no attribute 'str'
+2025-07-21 14:46:21,792 - analyzers.excel_analyzer - INFO - 分析完成，发现 0 个表格，0 个图表
+2025-07-21 14:46:21,792 - root - INFO - 步骤2: AI分析生成BIRT配置
+2025-07-21 14:46:21,792 - utils.gemini_analyzer - INFO - 开始Gemini AI分析: 20250527162636.xlsx
+2025-07-21 14:46:28,475 - utils.gemini_analyzer - INFO - Gemini AI分析完成，置信度: 0.8
+2025-07-21 14:46:28,475 - root - INFO - 步骤3: 生成BIRT报表文件
+2025-07-21 14:46:28,476 - generators.birt_generator - INFO - 开始生成BIRT报表: 20250527162636.xlsx
+2025-07-21 14:46:28,479 - generators.birt_generator - INFO - 报表生成成功: output\20250527162636.rptdesign
+2025-07-21 14:46:28,480 - root - INFO - 文件处理完成: 20250527162636.xlsx, 耗时: 6.90秒
+2025-07-21 14:46:28,481 - root - INFO - 批量处理报告已保存: output\batch_report_20250721_144628.json
+2025-07-21 14:46:28,481 - root - INFO - 批量处理完成: 总计1个文件, 成功1个, 失败0个
+2025-07-21 14:50:14,578 - utils.gemini_analyzer - INFO - Gemini AI分析器初始化完成，使用模型: gemini-2.0-flash-exp
+2025-07-21 14:50:14,578 - utils.gemini_analyzer - INFO - Gemini分析器初始化成功
+2025-07-21 14:50:14,579 - root - INFO - BIRT AI生成器初始化完成
+2025-07-21 14:50:14,579 - root - INFO - 找到 1 个Excel文件，开始批量处理
+2025-07-21 14:50:14,579 - root - INFO - 开始处理文件: 20250527162636.xlsx
+2025-07-21 14:50:14,579 - root - INFO - 步骤1: 分析Excel文件结构
+2025-07-21 14:50:14,579 - analyzers.excel_analyzer - INFO - 开始分析Excel文件: input\20250527162636.xlsx
+2025-07-21 14:50:14,679 - analyzers.excel_analyzer - INFO - 分析完成，发现 1 个表格，0 个图表
+2025-07-21 14:50:14,680 - root - INFO - 步骤2: AI分析生成BIRT配置
+2025-07-21 14:50:14,680 - utils.gemini_analyzer - INFO - 开始Gemini AI分析: 20250527162636.xlsx
+2025-07-21 14:50:22,597 - utils.gemini_analyzer - INFO - Gemini AI分析完成，置信度: 0.85
+2025-07-21 14:50:22,598 - root - INFO - 步骤3: 生成BIRT报表文件
+2025-07-21 14:50:22,598 - generators.birt_generator - INFO - 开始生成BIRT报表: 20250527162636.xlsx
+2025-07-21 14:50:22,599 - generators.birt_generator - WARNING - 模板文件不存在，使用基础模板: templates\birt\base_template.xml
+2025-07-21 14:50:22,607 - generators.birt_generator - INFO - 报表生成成功: output\20250527162636.rptdesign
+2025-07-21 14:50:22,608 - root - INFO - 文件处理完成: 20250527162636.xlsx, 耗时: 8.03秒
+2025-07-21 14:50:22,609 - root - INFO - 批量处理报告已保存: output\batch_report_20250721_145022.json
+2025-07-21 14:50:22,609 - root - INFO - 批量处理完成: 总计1个文件, 成功1个, 失败0个
+2025-07-21 15:16:43,703 - utils.gemini_analyzer - INFO - Gemini AI分析器初始化完成，使用模型: gemini-2.0-flash-exp
+2025-07-21 15:16:43,704 - utils.gemini_analyzer - INFO - Gemini分析器初始化成功
+2025-07-21 15:16:43,704 - root - INFO - BIRT AI生成器初始化完成
+2025-07-21 15:16:43,704 - root - INFO - 找到 1 个Excel文件，开始批量处理
+2025-07-21 15:16:43,705 - root - INFO - 开始处理文件: 20250527162636.xlsx
+2025-07-21 15:16:43,705 - root - INFO - 步骤1: 分析Excel文件结构
+2025-07-21 15:16:43,705 - analyzers.excel_analyzer - INFO - 开始分析Excel文件: input\20250527162636.xlsx
+2025-07-21 15:16:43,809 - analyzers.excel_analyzer - INFO - 分析完成，发现 1 个表格，0 个图表
+2025-07-21 15:16:43,809 - root - INFO - 步骤2: AI分析生成BIRT配置
+2025-07-21 15:16:43,809 - utils.gemini_analyzer - INFO - 开始Gemini AI分析: 20250527162636.xlsx
+2025-07-21 15:16:52,552 - utils.gemini_analyzer - INFO - Gemini AI分析完成，置信度: 0.85
+2025-07-21 15:16:52,553 - root - INFO - 步骤3: 生成BIRT报表文件
+2025-07-21 15:16:52,553 - generators.birt_generator - INFO - 开始生成BIRT报表: 20250527162636.xlsx
+2025-07-21 15:16:52,554 - generators.birt_generator - WARNING - 模板文件不存在，使用基础模板: templates\birt\base_template.xml
+2025-07-21 15:16:52,559 - generators.birt_generator - INFO - 报表生成成功: output\20250527162636.rptdesign
+2025-07-21 15:16:52,560 - root - INFO - 文件处理完成: 20250527162636.xlsx, 耗时: 8.86秒
+2025-07-21 15:16:52,561 - root - INFO - 批量处理报告已保存: output\batch_report_20250721_151652.json
+2025-07-21 15:16:52,562 - root - INFO - 批量处理完成: 总计1个文件, 成功1个, 失败0个
+2025-07-21 15:30:21,160 - utils.gemini_analyzer - INFO - Gemini AI分析器初始化完成，使用模型: gemini-2.0-flash-exp
+2025-07-21 15:30:21,160 - utils.gemini_analyzer - INFO - Gemini分析器初始化成功
+2025-07-21 15:30:21,160 - root - INFO - BIRT AI生成器初始化完成
+2025-07-21 15:30:21,160 - root - INFO - 找到 1 个Excel文件，开始批量处理
+2025-07-21 15:30:21,161 - root - INFO - 开始处理文件: 20250527162636.xlsx
+2025-07-21 15:30:21,161 - root - INFO - 步骤1: 分析Excel文件结构
+2025-07-21 15:30:21,161 - analyzers.excel_analyzer - INFO - 开始分析Excel文件: input\20250527162636.xlsx
+2025-07-21 15:30:21,271 - analyzers.excel_analyzer - INFO - 分析完成，发现 1 个表格，0 个图表
+2025-07-21 15:30:21,272 - root - INFO - 步骤2: AI分析生成BIRT配置
+2025-07-21 15:30:21,272 - utils.gemini_analyzer - INFO - 开始Gemini AI分析: 20250527162636.xlsx
+2025-07-21 15:30:30,298 - utils.gemini_analyzer - INFO - Gemini AI分析完成，置信度: 0.85
+2025-07-21 15:30:30,299 - root - INFO - 步骤3: 生成BIRT报表文件
+2025-07-21 15:30:30,300 - generators.birt_generator - INFO - 开始生成BIRT报表: 20250527162636.xlsx
+2025-07-21 15:30:30,302 - generators.birt_generator - WARNING - 模板文件不存在，使用基础模板: templates\birt\base_template.xml
+2025-07-21 15:30:30,335 - generators.birt_generator - INFO - 报表生成成功: output\20250527162636.rptdesign
+2025-07-21 15:30:30,335 - root - INFO - 文件处理完成: 20250527162636.xlsx, 耗时: 9.17秒
+2025-07-21 15:30:30,337 - root - INFO - 批量处理报告已保存: output\batch_report_20250721_153030.json
+2025-07-21 15:30:30,337 - root - INFO - 批量处理完成: 总计1个文件, 成功1个, 失败0个
+2025-07-21 15:40:08,322 - utils.gemini_analyzer - INFO - Gemini AI分析器初始化完成，使用模型: gemini-2.0-flash-exp
+2025-07-21 15:40:08,323 - utils.gemini_analyzer - INFO - Gemini分析器初始化成功
+2025-07-21 15:40:08,323 - root - INFO - BIRT AI生成器初始化完成
+2025-07-21 15:40:08,323 - root - INFO - 找到 1 个Excel文件，开始批量处理
+2025-07-21 15:40:08,323 - root - INFO - 开始处理文件: 20250527162636.xlsx
+2025-07-21 15:40:08,324 - root - INFO - 步骤1: 分析Excel文件结构
+2025-07-21 15:40:08,324 - analyzers.excel_analyzer - INFO - 开始分析Excel文件: input\20250527162636.xlsx
+2025-07-21 15:40:08,430 - analyzers.excel_analyzer - INFO - 分析完成，发现 1 个表格，0 个图表
+2025-07-21 15:40:08,431 - root - INFO - 步骤2: AI分析生成BIRT配置
+2025-07-21 15:40:08,431 - utils.gemini_analyzer - INFO - 开始Gemini AI分析: 20250527162636.xlsx
+2025-07-21 15:40:16,978 - utils.gemini_analyzer - INFO - Gemini AI分析完成，置信度: 0.85
+2025-07-21 15:40:16,980 - root - INFO - 步骤3: 生成BIRT报表文件
+2025-07-21 15:40:16,981 - generators.birt_generator - INFO - 开始生成BIRT报表: 20250527162636.xlsx
+2025-07-21 15:40:16,983 - generators.birt_generator - WARNING - 模板文件不存在，使用基础模板: templates\birt\base_template.xml
+2025-07-21 15:40:17,007 - generators.birt_generator - INFO - 报表生成成功: output\20250527162636.rptdesign
+2025-07-21 15:40:17,008 - root - INFO - 文件处理完成: 20250527162636.xlsx, 耗时: 8.69秒
+2025-07-21 15:40:17,009 - root - INFO - 批量处理报告已保存: output\batch_report_20250721_154017.json
+2025-07-21 15:40:17,010 - root - INFO - 批量处理完成: 总计1个文件, 成功1个, 失败0个
+2025-07-21 16:44:40,311 - utils.gemini_analyzer - INFO - Gemini AI分析器初始化完成，使用模型: gemini-2.0-flash-exp
+2025-07-21 16:44:40,311 - utils.gemini_analyzer - INFO - Gemini分析器初始化成功
+2025-07-21 16:44:40,312 - root - INFO - BIRT AI生成器初始化完成
+2025-07-21 16:44:40,312 - root - INFO - 找到 2 个Excel文件，开始批量处理
+2025-07-21 16:44:40,313 - root - INFO - 开始处理文件: 20250527162636.xlsx
+2025-07-21 16:44:40,313 - root - INFO - 步骤1: 分析Excel文件结构
+2025-07-21 16:44:40,313 - analyzers.excel_analyzer - INFO - 开始分析Excel文件: input\20250527162636.xlsx
+2025-07-21 16:44:40,420 - analyzers.excel_analyzer - INFO - 分析完成，发现 1 个表格，0 个图表
+2025-07-21 16:44:40,420 - root - INFO - 步骤2: AI分析生成BIRT配置
+2025-07-21 16:44:40,420 - utils.gemini_analyzer - INFO - 开始Gemini AI分析: 20250527162636.xlsx
+2025-07-21 16:44:49,238 - utils.gemini_analyzer - INFO - Gemini AI分析完成，置信度: 0.85
+2025-07-21 16:44:49,240 - root - INFO - 步骤3: 生成BIRT报表文件
+2025-07-21 16:44:49,241 - generators.birt_generator - INFO - 开始生成BIRT报表: 20250527162636.xlsx
+2025-07-21 16:44:49,242 - generators.birt_generator - WARNING - 模板文件不存在，使用基础模板: templates\birt\base_template.xml
+2025-07-21 16:44:49,274 - generators.birt_generator - INFO - 报表生成成功: output\20250527162636.rptdesign
+2025-07-21 16:44:49,274 - root - INFO - 文件处理完成: 20250527162636.xlsx, 耗时: 8.96秒
+2025-07-21 16:44:49,275 - root - INFO - 开始处理文件: CASE_全般案件20250401_20250430.xlsx
+2025-07-21 16:44:49,275 - root - INFO - 步骤1: 分析Excel文件结构
+2025-07-21 16:44:49,276 - analyzers.excel_analyzer - INFO - 开始分析Excel文件: input\CASE_全般案件20250401_20250430.xlsx
+2025-07-21 16:44:49,346 - analyzers.excel_analyzer - INFO - 分析完成，发现 1 个表格，0 个图表
+2025-07-21 16:44:49,346 - root - INFO - 步骤2: AI分析生成BIRT配置
+2025-07-21 16:44:49,347 - utils.gemini_analyzer - INFO - 开始Gemini AI分析: CASE_全般案件20250401_20250430.xlsx
+2025-07-21 16:45:01,063 - utils.gemini_analyzer - ERROR - JSON解析失败: Expecting ',' delimiter: line 214 column 14 (char 6412)
+2025-07-21 16:45:01,063 - utils.gemini_analyzer - ERROR - Gemini AI分析失败: Gemini响应格式错误，无法解析JSON: Expecting ',' delimiter: line 214 column 14 (char 6412)
+2025-07-21 16:45:01,064 - utils.gemini_analyzer - WARNING - 使用回退配置
+2025-07-21 16:45:01,064 - root - INFO - 步骤3: 生成BIRT报表文件
+2025-07-21 16:45:01,064 - generators.birt_generator - INFO - 开始生成BIRT报表: CASE_全般案件20250401_20250430.xlsx
+2025-07-21 16:45:01,064 - generators.birt_generator - WARNING - 模板文件不存在，使用基础模板: templates\birt\base_template.xml
+2025-07-21 16:45:01,094 - generators.birt_generator - INFO - 报表生成成功: output\CASE_全般案件20250401_20250430.rptdesign
+2025-07-21 16:45:01,094 - root - INFO - 文件处理完成: CASE_全般案件20250401_20250430.xlsx, 耗时: 11.82秒
+2025-07-21 16:45:01,096 - root - ERROR - 保存批量处理报告失败: Object of type Timestamp is not JSON serializable
+2025-07-21 16:45:01,096 - root - INFO - 批量处理完成: 总计2个文件, 成功2个, 失败0个
+2025-07-21 16:55:05,046 - utils.gemini_analyzer - INFO - Gemini AI分析器初始化完成，使用模型: gemini-2.0-flash-exp
+2025-07-21 16:55:05,047 - utils.gemini_analyzer - INFO - Gemini分析器初始化成功
+2025-07-21 16:55:05,047 - root - INFO - BIRT AI生成器初始化完成
+2025-07-21 16:55:05,047 - root - INFO - 找到 2 个Excel文件，开始批量处理
+2025-07-21 16:55:05,047 - root - INFO - 开始处理文件: 20250527162636.xlsx
+2025-07-21 16:55:05,048 - root - INFO - 步骤1: 分析Excel文件结构
+2025-07-21 16:55:05,048 - analyzers.excel_analyzer - INFO - 开始分析Excel文件: input\20250527162636.xlsx
+2025-07-21 16:55:05,155 - analyzers.excel_analyzer - INFO - 分析完成，发现 1 个表格，0 个图表
+2025-07-21 16:55:05,156 - root - INFO - 步骤2: AI分析生成BIRT配置
+2025-07-21 16:55:05,157 - utils.gemini_analyzer - INFO - 开始Gemini AI分析: 20250527162636.xlsx
+2025-07-21 16:55:14,277 - utils.gemini_analyzer - INFO - Gemini AI分析完成，置信度: 0.85
+2025-07-21 16:55:14,278 - root - INFO - 步骤3: 生成BIRT报表文件
+2025-07-21 16:55:14,279 - generators.birt_generator - INFO - 开始生成BIRT报表: 20250527162636.xlsx
+2025-07-21 16:55:14,280 - generators.birt_generator - WARNING - 模板文件不存在，使用基础模板: templates\birt\base_template.xml
+2025-07-21 16:55:14,305 - generators.birt_generator - INFO - 报表生成成功: output\20250527162636.rptdesign
+2025-07-21 16:55:14,307 - root - INFO - 文件处理完成: 20250527162636.xlsx, 耗时: 9.26秒
+2025-07-21 16:55:14,307 - root - INFO - 开始处理文件: CASE_全般案件20250401_20250430.xlsx
+2025-07-21 16:55:14,307 - root - INFO - 步骤1: 分析Excel文件结构
+2025-07-21 16:55:14,308 - analyzers.excel_analyzer - INFO - 开始分析Excel文件: input\CASE_全般案件20250401_20250430.xlsx
+2025-07-21 16:55:14,373 - analyzers.excel_analyzer - INFO - 分析完成，发现 1 个表格，0 个图表
+2025-07-21 16:55:14,375 - root - INFO - 步骤2: AI分析生成BIRT配置
+2025-07-21 16:55:14,375 - utils.gemini_analyzer - INFO - 开始Gemini AI分析: CASE_全般案件20250401_20250430.xlsx
+2025-07-21 16:55:26,641 - utils.gemini_analyzer - ERROR - JSON解析失败: Expecting ',' delimiter: line 214 column 10 (char 6261)
+2025-07-21 16:55:26,642 - utils.gemini_analyzer - ERROR - Gemini AI分析失败: Gemini响应格式错误，无法解析JSON: Expecting ',' delimiter: line 214 column 10 (char 6261)
+2025-07-21 16:55:26,645 - utils.gemini_analyzer - WARNING - 使用回退配置
+2025-07-21 16:55:26,646 - root - INFO - 步骤3: 生成BIRT报表文件
+2025-07-21 16:55:26,648 - generators.birt_generator - INFO - 开始生成BIRT报表: CASE_全般案件20250401_20250430.xlsx
+2025-07-21 16:55:26,649 - generators.birt_generator - WARNING - 模板文件不存在，使用基础模板: templates\birt\base_template.xml
+2025-07-21 16:55:26,689 - generators.birt_generator - INFO - 报表生成成功: output\CASE_全般案件20250401_20250430.rptdesign
+2025-07-21 16:55:26,690 - root - INFO - 文件处理完成: CASE_全般案件20250401_20250430.xlsx, 耗时: 12.38秒
+2025-07-21 16:55:26,692 - root - ERROR - 保存批量处理报告失败: Object of type Timestamp is not JSON serializable
+2025-07-21 16:55:26,692 - root - INFO - 批量处理完成: 总计2个文件, 成功2个, 失败0个
+2025-07-21 17:04:10,812 - utils.gemini_analyzer - INFO - Gemini AI分析器初始化完成，使用模型: gemini-2.0-flash-exp
+2025-07-21 17:04:10,812 - utils.gemini_analyzer - INFO - Gemini分析器初始化成功
+2025-07-21 17:04:10,813 - root - INFO - BIRT AI生成器初始化完成
+2025-07-21 17:04:10,813 - root - INFO - 找到 2 个Excel文件，开始批量处理
+2025-07-21 17:04:10,813 - root - INFO - 开始处理文件: 20250527162636.xlsx
+2025-07-21 17:04:10,814 - root - INFO - 步骤1: 分析Excel文件结构
+2025-07-21 17:04:10,814 - analyzers.excel_analyzer - INFO - 开始分析Excel文件: input\20250527162636.xlsx
+2025-07-21 17:04:10,925 - analyzers.excel_analyzer - INFO - 分析完成，发现 1 个表格，0 个图表
+2025-07-21 17:04:10,925 - root - INFO - 步骤2: AI分析生成BIRT配置
+2025-07-21 17:04:10,925 - utils.gemini_analyzer - INFO - 开始Gemini AI分析: 20250527162636.xlsx
+2025-07-21 17:04:19,850 - utils.gemini_analyzer - INFO - Gemini AI分析完成，置信度: 0.85
+2025-07-21 17:04:19,852 - root - INFO - 步骤3: 生成BIRT报表文件
+2025-07-21 17:04:19,853 - generators.birt_generator - INFO - 开始生成BIRT报表: 20250527162636.xlsx
+2025-07-21 17:04:19,855 - generators.birt_generator - WARNING - 模板文件不存在，使用基础模板: templates\birt\base_template.xml
+2025-07-21 17:04:19,871 - generators.birt_generator - INFO - 报表生成成功: output\20250527162636_fixed_generator.rptdesign
+2025-07-21 17:04:19,871 - root - INFO - 文件处理完成: 20250527162636.xlsx, 耗时: 9.06秒
+2025-07-21 17:04:19,872 - root - INFO - 开始处理文件: CASE_全般案件20250401_20250430.xlsx
+2025-07-21 17:04:19,872 - root - INFO - 步骤1: 分析Excel文件结构
+2025-07-21 17:04:19,872 - analyzers.excel_analyzer - INFO - 开始分析Excel文件: input\CASE_全般案件20250401_20250430.xlsx
+2025-07-21 17:04:19,940 - analyzers.excel_analyzer - INFO - 分析完成，发现 1 个表格，0 个图表
+2025-07-21 17:04:19,940 - root - INFO - 步骤2: AI分析生成BIRT配置
+2025-07-21 17:04:19,941 - utils.gemini_analyzer - INFO - 开始Gemini AI分析: CASE_全般案件20250401_20250430.xlsx
+2025-07-21 17:04:32,611 - utils.gemini_analyzer - ERROR - JSON解析失败: Expecting ',' delimiter: line 204 column 10 (char 5815)
+2025-07-21 17:04:32,613 - utils.gemini_analyzer - ERROR - Gemini AI分析失败: Gemini响应格式错误，无法解析JSON: Expecting ',' delimiter: line 204 column 10 (char 5815)
+2025-07-21 17:04:32,614 - utils.gemini_analyzer - WARNING - 使用回退配置
+2025-07-21 17:04:32,615 - root - INFO - 步骤3: 生成BIRT报表文件
+2025-07-21 17:04:32,616 - generators.birt_generator - INFO - 开始生成BIRT报表: CASE_全般案件20250401_20250430.xlsx
+2025-07-21 17:04:32,616 - generators.birt_generator - WARNING - 模板文件不存在，使用基础模板: templates\birt\base_template.xml
+2025-07-21 17:04:32,627 - generators.birt_generator - INFO - 报表生成成功: output\CASE_全般案件20250401_20250430_fixed_generator.rptdesign
+2025-07-21 17:04:32,628 - root - INFO - 文件处理完成: CASE_全般案件20250401_20250430.xlsx, 耗时: 12.76秒
+2025-07-21 17:04:32,629 - root - ERROR - 保存批量处理报告失败: Object of type Timestamp is not JSON serializable
+2025-07-21 17:04:32,629 - root - INFO - 批量处理完成: 总计2个文件, 成功2个, 失败0个
+2025-07-21 17:10:16,612 - utils.gemini_analyzer - INFO - Gemini AI分析器初始化完成，使用模型: gemini-2.0-flash-exp
+2025-07-21 17:10:16,613 - utils.gemini_analyzer - INFO - Gemini分析器初始化成功
+2025-07-21 17:10:16,613 - root - INFO - BIRT AI生成器初始化完成
+2025-07-21 17:10:16,613 - root - INFO - 找到 2 个Excel文件，开始批量处理
+2025-07-21 17:10:16,614 - root - INFO - 开始处理文件: 20250527162636.xlsx
+2025-07-21 17:10:16,614 - root - INFO - 步骤1: 分析Excel文件结构
+2025-07-21 17:10:16,614 - analyzers.excel_analyzer - INFO - 开始分析Excel文件: input\20250527162636.xlsx
+2025-07-21 17:10:16,714 - analyzers.excel_analyzer - INFO - 分析完成，发现 1 个表格，0 个图表
+2025-07-21 17:10:16,714 - root - INFO - 步骤2: AI分析生成BIRT配置
+2025-07-21 17:10:16,714 - utils.gemini_analyzer - INFO - 开始Gemini AI分析: 20250527162636.xlsx
+2025-07-21 17:10:25,561 - utils.gemini_analyzer - INFO - Gemini AI分析完成，置信度: 0.85
+2025-07-21 17:10:25,562 - root - INFO - 步骤3: 生成BIRT报表文件
+2025-07-21 17:10:25,563 - generators.birt_generator - INFO - 开始生成BIRT报表: 20250527162636.xlsx
+2025-07-21 17:10:25,564 - generators.birt_generator - WARNING - 模板文件不存在，使用基础模板: templates\birt\base_template.xml
+2025-07-21 17:10:25,585 - generators.birt_generator - INFO - 报表生成成功: output\20250527162636_fixed_generator.rptdesign
+2025-07-21 17:10:25,588 - root - INFO - 文件处理完成: 20250527162636.xlsx, 耗时: 8.97秒
+2025-07-21 17:10:25,589 - root - INFO - 开始处理文件: CASE_全般案件20250401_20250430.xlsx
+2025-07-21 17:10:25,589 - root - INFO - 步骤1: 分析Excel文件结构
+2025-07-21 17:10:25,589 - analyzers.excel_analyzer - INFO - 开始分析Excel文件: input\CASE_全般案件20250401_20250430.xlsx
+2025-07-21 17:10:25,656 - analyzers.excel_analyzer - INFO - 分析完成，发现 1 个表格，0 个图表
+2025-07-21 17:10:25,656 - root - INFO - 步骤2: AI分析生成BIRT配置
+2025-07-21 17:10:25,657 - utils.gemini_analyzer - INFO - 开始Gemini AI分析: CASE_全般案件20250401_20250430.xlsx
+2025-07-21 17:10:38,032 - utils.gemini_analyzer - ERROR - JSON解析失败: Expecting ',' delimiter: line 201 column 6 (char 4625)
+2025-07-21 17:10:38,034 - utils.gemini_analyzer - ERROR - Gemini AI分析失败: Gemini响应格式错误，无法解析JSON: Expecting ',' delimiter: line 201 column 6 (char 4625)
+2025-07-21 17:10:38,035 - utils.gemini_analyzer - WARNING - 使用回退配置
+2025-07-21 17:10:38,037 - root - INFO - 步骤3: 生成BIRT报表文件
+2025-07-21 17:10:38,038 - generators.birt_generator - INFO - 开始生成BIRT报表: CASE_全般案件20250401_20250430.xlsx
+2025-07-21 17:10:38,040 - generators.birt_generator - WARNING - 模板文件不存在，使用基础模板: templates\birt\base_template.xml
+2025-07-21 17:10:38,059 - generators.birt_generator - INFO - 报表生成成功: output\CASE_全般案件20250401_20250430_fixed_generator.rptdesign
+2025-07-21 17:10:38,060 - root - INFO - 文件处理完成: CASE_全般案件20250401_20250430.xlsx, 耗时: 12.47秒
+2025-07-21 17:10:38,062 - root - ERROR - 保存批量处理报告失败: Object of type Timestamp is not JSON serializable
+2025-07-21 17:10:38,063 - root - INFO - 批量处理完成: 总计2个文件, 成功2个, 失败0个
+2025-07-21 17:33:11,568 - utils.gemini_analyzer - INFO - Gemini AI分析器初始化完成，使用模型: gemini-2.0-flash-exp
+2025-07-21 17:33:11,568 - utils.gemini_analyzer - INFO - Gemini分析器初始化成功
+2025-07-21 17:33:11,568 - root - INFO - BIRT AI生成器初始化完成
+2025-07-21 17:33:11,568 - root - INFO - 找到 2 个Excel文件，开始批量处理
+2025-07-21 17:33:11,569 - root - INFO - 开始处理文件: 20250527162636.xlsx
+2025-07-21 17:33:11,569 - root - INFO - 步骤1: 分析Excel文件结构
+2025-07-21 17:33:11,569 - analyzers.excel_analyzer - INFO - 开始分析Excel文件: input\20250527162636.xlsx
+2025-07-21 17:33:11,680 - analyzers.excel_analyzer - INFO - 分析完成，发现 1 个表格，0 个图表
+2025-07-21 17:33:11,680 - root - INFO - 步骤2: AI分析生成BIRT配置
+2025-07-21 17:33:11,680 - utils.gemini_analyzer - INFO - 开始Gemini AI分析: 20250527162636.xlsx
+2025-07-21 17:33:20,155 - utils.gemini_analyzer - INFO - Gemini AI分析完成，置信度: 0.85
+2025-07-21 17:33:20,156 - root - INFO - 步骤3: 生成BIRT报表文件
+2025-07-21 17:33:20,156 - generators.birt_generator - INFO - 开始生成BIRT报表: 20250527162636.xlsx
+2025-07-21 17:33:20,156 - generators.birt_generator - WARNING - 模板文件不存在，使用基础模板: templates\birt\base_template.xml
+2025-07-21 17:33:20,158 - generators.birt_generator - WARNING - 检测到使用SQL关键字'in'作为表名，进行修复...
+2025-07-21 17:33:20,163 - generators.birt_generator - INFO - 报表生成成功: output\20250527162636_fixed_generator.rptdesign
+2025-07-21 17:33:20,163 - root - INFO - 文件处理完成: 20250527162636.xlsx, 耗时: 8.59秒
+2025-07-21 17:33:20,163 - root - INFO - 开始处理文件: CASE_全般案件20250401_20250430.xlsx
+2025-07-21 17:33:20,163 - root - INFO - 步骤1: 分析Excel文件结构
+2025-07-21 17:33:20,164 - analyzers.excel_analyzer - INFO - 开始分析Excel文件: input\CASE_全般案件20250401_20250430.xlsx
+2025-07-21 17:33:20,226 - analyzers.excel_analyzer - INFO - 分析完成，发现 1 个表格，0 个图表
+2025-07-21 17:33:20,227 - root - INFO - 步骤2: AI分析生成BIRT配置
+2025-07-21 17:33:20,227 - utils.gemini_analyzer - INFO - 开始Gemini AI分析: CASE_全般案件20250401_20250430.xlsx
+2025-07-21 17:33:32,731 - utils.gemini_analyzer - ERROR - JSON解析失败: Expecting ',' delimiter: line 214 column 14 (char 6530)
+2025-07-21 17:33:32,732 - utils.gemini_analyzer - ERROR - Gemini AI分析失败: Gemini响应格式错误，无法解析JSON: Expecting ',' delimiter: line 214 column 14 (char 6530)
+2025-07-21 17:33:32,732 - utils.gemini_analyzer - WARNING - 使用回退配置
+2025-07-21 17:33:32,734 - root - INFO - 步骤3: 生成BIRT报表文件
+2025-07-21 17:33:32,735 - generators.birt_generator - INFO - 开始生成BIRT报表: CASE_全般案件20250401_20250430.xlsx
+2025-07-21 17:33:32,735 - generators.birt_generator - WARNING - 模板文件不存在，使用基础模板: templates\birt\base_template.xml
+2025-07-21 17:33:32,738 - generators.birt_generator - WARNING - SQL查询缺少FROM子句，尝试修复...
+2025-07-21 17:33:32,739 - generators.birt_generator - WARNING - 检测到无效的字符串常数查询，生成默认查询...
+2025-07-21 17:33:32,749 - generators.birt_generator - INFO - 报表生成成功: output\CASE_全般案件20250401_20250430_fixed_generator.rptdesign
+2025-07-21 17:33:32,750 - root - INFO - 文件处理完成: CASE_全般案件20250401_20250430.xlsx, 耗时: 12.59秒
+2025-07-21 17:33:32,751 - root - ERROR - 保存批量处理报告失败: Object of type Timestamp is not JSON serializable
+2025-07-21 17:33:32,751 - root - INFO - 批量处理完成: 总计2个文件, 成功2个, 失败0个
+2025-07-21 17:47:32,284 - utils.gemini_analyzer - INFO - Gemini AI分析器初始化完成，使用模型: gemini-2.0-flash-exp
+2025-07-21 17:47:32,285 - utils.gemini_analyzer - INFO - Gemini分析器初始化成功
+2025-07-21 17:47:32,285 - root - INFO - BIRT AI生成器初始化完成
+2025-07-21 17:47:32,285 - root - INFO - 找到 2 个Excel文件，开始批量处理
+2025-07-21 17:47:32,286 - root - INFO - 开始处理文件: 20250527162636.xlsx
+2025-07-21 17:47:32,287 - root - INFO - 步骤1: 分析Excel文件结构
+2025-07-21 17:47:32,287 - analyzers.excel_analyzer - INFO - 开始分析Excel文件: input\20250527162636.xlsx
+2025-07-21 17:47:32,385 - analyzers.excel_analyzer - INFO - 分析完成，发现 1 个表格，0 个图表
+2025-07-21 17:47:32,385 - root - INFO - 步骤2: AI分析生成BIRT配置
+2025-07-21 17:47:32,385 - utils.gemini_analyzer - INFO - 开始Gemini AI分析: 20250527162636.xlsx
+2025-07-21 17:47:40,999 - utils.gemini_analyzer - INFO - Gemini AI分析完成，置信度: 0.85
+2025-07-21 17:47:41,000 - root - INFO - 步骤3: 生成BIRT报表文件
+2025-07-21 17:47:41,000 - generators.birt_generator - INFO - 开始生成BIRT报表: 20250527162636.xlsx
+2025-07-21 17:47:41,000 - generators.birt_generator - WARNING - 模板文件不存在，使用基础模板: templates\birt\base_template.xml
+2025-07-21 17:47:41,007 - generators.birt_generator - INFO - 报表生成成功: output\20250527162636_fixed_generator.rptdesign
+2025-07-21 17:47:41,008 - root - INFO - 文件处理完成: 20250527162636.xlsx, 耗时: 8.72秒
+2025-07-21 17:47:41,008 - root - INFO - 开始处理文件: CASE_全般案件20250401_20250430.xlsx
+2025-07-21 17:47:41,008 - root - INFO - 步骤1: 分析Excel文件结构
+2025-07-21 17:47:41,008 - analyzers.excel_analyzer - INFO - 开始分析Excel文件: input\CASE_全般案件20250401_20250430.xlsx
+2025-07-21 17:47:41,071 - analyzers.excel_analyzer - INFO - 分析完成，发现 1 个表格，0 个图表
+2025-07-21 17:47:41,071 - root - INFO - 步骤2: AI分析生成BIRT配置
+2025-07-21 17:47:41,071 - utils.gemini_analyzer - INFO - 开始Gemini AI分析: CASE_全般案件20250401_20250430.xlsx
+2025-07-21 17:47:51,992 - utils.gemini_analyzer - ERROR - JSON解析失败: Expecting ',' delimiter: line 208 column 10 (char 6146)
+2025-07-21 17:47:51,993 - utils.gemini_analyzer - ERROR - Gemini AI分析失败: Gemini响应格式错误，无法解析JSON: Expecting ',' delimiter: line 208 column 10 (char 6146)
+2025-07-21 17:47:51,994 - utils.gemini_analyzer - WARNING - 使用回退配置
+2025-07-21 17:47:51,994 - root - INFO - 步骤3: 生成BIRT报表文件
+2025-07-21 17:47:51,994 - generators.birt_generator - INFO - 开始生成BIRT报表: CASE_全般案件20250401_20250430.xlsx
+2025-07-21 17:47:51,994 - generators.birt_generator - WARNING - 模板文件不存在，使用基础模板: templates\birt\base_template.xml
+2025-07-21 17:47:52,001 - generators.birt_generator - INFO - 报表生成成功: output\CASE_全般案件20250401_20250430_fixed_generator.rptdesign
+2025-07-21 17:47:52,002 - root - INFO - 文件处理完成: CASE_全般案件20250401_20250430.xlsx, 耗时: 10.99秒
+2025-07-21 17:47:52,003 - root - ERROR - 保存批量处理报告失败: Object of type Timestamp is not JSON serializable
+2025-07-21 17:47:52,003 - root - INFO - 批量处理完成: 总计2个文件, 成功2个, 失败0个
