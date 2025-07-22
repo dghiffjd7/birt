@@ -40,10 +40,10 @@ cp .env.example .env
 GEMINI_API_KEY=your_gemini_api_key_here
 
 # Quicksilver資料庫配置  
-QS_DB_URL=jdbc:jeedsql:jtds:sqlserver://localhost:1433;DatabaseName=QS;
+QS_DB_DRIVER=Your_Driver
+QS_DB_URL=Your_sqlserver://localhost:;DatabaseName=QS;
 QS_DB_USER=your_username
 QS_DB_PASSWORD=your_password
-QS_DB_DRIVER=com.jeedsoft.jeedsql.jdbc.Driver
 
 # 額外資料庫設定（可選）
 QS_CONNECTION_TIMEOUT=30
