@@ -154,10 +154,10 @@ python src/main.py -i input/ --list
 
 ```env
 # Quicksilver資料庫連線設定
-QS_DB_DRIVER=com.jeedsoft.jeedsql.jdbc.Driver
-QS_DB_URL=jdbc:jeedsql:jtds:sqlserver://your-server:1433;DatabaseName=QS;
-QS_DB_USER=your_database_username
-QS_DB_PASSWORD=your_database_password
+QS_DB_DRIVER=Your_Driver
+QS_DB_URL=Your_sqlserver://localhost:;DatabaseName=QS;
+QS_DB_USER=your_username
+QS_DB_PASSWORD=your_password
 
 # 連線逾時設定（可選）
 QS_CONNECTION_TIMEOUT=30
