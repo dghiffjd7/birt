@@ -13,7 +13,13 @@
 
 ## 快速開始
 
-### 1. 安裝相依套件
+### 1. 安裝相依套件（建議conda）
+
+```bash
+conda create -n YourENV python==3.10
+conda activate YourENV
+cd ../birt
+```
 
 ```bash
 pip install -r requirements.txt
